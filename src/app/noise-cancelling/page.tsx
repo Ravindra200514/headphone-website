@@ -51,7 +51,7 @@ export default function NoiseCancellingPage() {
           >
             <h3 className="text-xl font-bold mb-4 text-white">V3 Processor</h3>
             <p className="text-white/50 leading-relaxed text-sm">
-              The dual-chip design separates high-frequency and low-frequency cancellation tasks. The result is total silence without the pressurized "cabin feel" typical of legacy noise-cancelling tech.
+              The dual-chip design separates high-frequency and low-frequency cancellation tasks. The result is total silence without the pressurized &quot;cabin feel&quot; typical of legacy noise-cancelling tech.
             </p>
           </motion.div>
 
@@ -75,6 +75,7 @@ export default function NoiseCancellingPage() {
           className="mt-16 w-full h-[400px] rounded-2xl overflow-hidden relative border border-white/10"
         >
           {/* Middle sequence showing microphones spreading out */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/sequence/ezgif-frame-210.jpg" alt="Processor Node" className="w-full h-full object-cover scale-110" />
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
             <div className="text-[#00D6FF] uppercase tracking-[0.5em] text-xs font-semibold px-4 py-2 border border-[#00D6FF]/30 backdrop-blur-md rounded-full bg-[#00D6FF]/10">

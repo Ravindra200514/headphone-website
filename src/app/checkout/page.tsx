@@ -158,6 +158,7 @@ export default function CheckoutPage() {
           <div className="flex items-center gap-6 pb-6 border-b border-white/10">
             <div className="w-20 h-20 bg-[#050505] border border-white/5 rounded-xl overflow-hidden relative flex items-center justify-center">
               {/* Fallback frame from the sequence to show product */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/sequence/ezgif-frame-001.jpg" alt="Sony WH-1000XM6" className="w-[150%] h-[150%] object-cover object-center absolute" />
             </div>
             <div>

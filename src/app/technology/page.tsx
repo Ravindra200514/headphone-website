@@ -53,6 +53,7 @@ export default function TechnologyPage() {
           className="order-1 lg:order-2 relative h-[500px] lg:h-[700px] w-full rounded-2xl overflow-hidden border border-white/5 bg-[#0A0A0C]"
         >
           {/* Using the user-provided headphone image */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src="/sequence/download.jpg" 
             alt="Sony WH-1000XM6 Technology" 
