@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #050505;
+    --bg-secondary: #0A0A0C;
+    --accent-primary: #0050FF;
+    --accent-secondary: #00D6FF;
+    --text-primary: rgba(255, 255, 255, 0.9);
+    --text-secondary: rgba(255, 255, 255, 0.6);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    background-image: radial-gradient(circle at center, #050815 0%, #050505 100%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-white to-[#00D6FF];
+  }
+  
+  .glass-nav {
+    @apply bg-[rgba(5,5,5,0.75)] backdrop-blur-md border-b border-[rgba(255,255,255,0.05)];
+  }
+  
+  .ultra-tracking {
+    letter-spacing: -0.04em;
+  }
+}
